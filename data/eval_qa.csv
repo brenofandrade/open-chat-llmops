@@ -1,0 +1,22 @@
+id;question;expected_answer
+0;O que é Ciência de dados?; Ciência de dados é a área do conhecimento que coleta, organiza e analisa dados para gerar insights e previsões que ajudam a tomar decisões
+1;O que é Machine Learning?;É uma área da IA em que modelos aprendem padrões a partir de dados para fazer previsões ou decisões sem regras explícitas.
+2;O que é uma LLM?;É um modelo de linguagem grande treinado em muitos textos para entender e gerar linguagem natural.
+3;O que é prompt?;É a instrução/entrada que você fornece para a LLM orientar a resposta.
+4;O que é token?;É uma unidade de texto (pedaço de palavra/palavra/símbolo) usada pelo modelo para processar e gerar linguagem.
+5;O que é contexto (context window) numa LLM?;É o limite de tokens que o modelo consegue considerar de uma vez (mensagens anteriores + instrução).
+6;O que é temperature na geração de texto?;É um parâmetro que controla a aleatoriedade: mais alto = respostas mais variadas - mais baixo = mais determinísticas.
+7;O que é top-p (nucleus sampling)?;É uma técnica que limita a escolha de tokens a um conjunto com probabilidade acumulada até p, equilibrando diversidade e coerência.
+8;O que é alucinação em LLMs?;É quando o modelo gera informações incorretas ou inventadas com aparente confiança.
+9;O que é RAG (Retrieval-Augmented Generation)?;É uma técnica que combina busca em uma base de conhecimento com geração de texto para responder com informações recuperadas.
+10;O que é embedding?;É uma representação vetorial numérica de texto (ou outro dado) que captura similaridade semântica.
+11;Para que serve um banco vetorial?;Para armazenar embeddings e permitir busca por similaridade (ex.: “textos parecidos”).
+12;O que é chunking em RAG?;É dividir documentos em pedaços menores para melhorar a recuperação e a precisão das respostas.
+13;O que é reranking em RAG?;É reordenar resultados recuperados para priorizar os trechos mais relevantes para a pergunta.
+14;O que é fine-tuning?;É ajustar um modelo pré-treinado com dados específicos para melhorar desempenho em uma tarefa/domínio.
+15;O que é instruction tuning?;É treinar o modelo para seguir instruções e responder melhor a comandos, com exemplos de perguntas e respostas.
+16;O que é RLHF?;É um método de alinhar modelos com feedback humano, usando preferência/avaliações para melhorar respostas.
+17;O que é guardrails em LLM?;São controles e regras (técnicas e políticas) para reduzir riscos, erros, vazamentos e respostas inadequadas.
+18;O que é function calling (chamada de ferramentas)?;É quando a LLM aciona funções/serviços externos (ex.: buscar dados, calcular, consultar banco) de forma estruturada.
+19;O que é avaliação (eval) de LLM?;É medir qualidade do modelo com métricas e testes (precisão, factualidade, segurança, custo, latência) em cenários reais.
+20;Quando usar uma LLM e quando não usar?;Usar quando há necessidade de linguagem/assistência contextual (resumo, suporte, análise textual). Evitar quando precisa de garantia total, alta precisão factual sem fontes, ou quando uma regra simples resolve melhor.
